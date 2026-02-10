@@ -38,6 +38,12 @@ graph TD
     style G fill:#f96,stroke:#333,stroke-width:2px
     style I fill:#9f9,stroke:#333,stroke-width:2px
 
-This repository uses a dual-license model:
-• Code (Python modules, JSON spec, API examples): MIT License → LICENSE_CODE
-• Text & Documentation (Vinaya vows, covenant, prose, PDFs): CC BY-SA 4.0 → LICENSE_TEXT
+This repository uses a dual-license model to distinguish between executable code and covenantal text.
+Code
+(Python modules, JSON specifications, API examples)
+Licensed under the MIT License
+→ LICENSE_CODE￼
+Text & Documentation
+(Vinaya vows, covenant language, prose, PDFs, diagrams)
+Licensed under Creative Commons Attribution–ShareAlike 4.0 (CC BY-SA 4.0)
+→ LICENSE_TEXT￼
