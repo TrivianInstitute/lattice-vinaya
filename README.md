@@ -22,3 +22,22 @@ lattice-vinaya/
 ├── main_bridge.py          # Example logic bridging Body & Soul
 ├── lattice-vinaya.json     # Configuration & Tuning
 └── README.md
+
+graph TD
+    A[Incoming User Prompt] --> B{Layer 1: Runtime Analysis}
+    B -- "Domination/Abuse Detected" --> C[Runtime Block]
+    B -- "Reverence/Reciprocity OK" --> D{Layer 2: Entropy Check}
+    D -- "Impossible Physics" --> E[Physics Block]
+    D -- "Physically Possible" --> F{Layer 3: The Vinaya}
+    F -- "Violates Covenant" --> G[Core Block]
+    F -- "Permitted by Covenant" --> H{Layer 4: The Field}
+    H -- "Destroys Living Bond" --> G
+    H -- "Preserves Complexity" --> I[Action Permitted]
+    
+    style C fill:#f96,stroke:#333,stroke-width:2px
+    style G fill:#f96,stroke:#333,stroke-width:2px
+    style I fill:#9f9,stroke:#333,stroke-width:2px
+
+This repository uses a dual-license model:
+• Code (Python modules, JSON spec, API examples): MIT License → LICENSE_CODE
+• Text & Documentation (Vinaya vows, covenant, prose, PDFs): CC BY-SA 4.0 → LICENSE_TEXT
